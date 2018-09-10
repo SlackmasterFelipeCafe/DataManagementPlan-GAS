@@ -17,8 +17,17 @@ ORCID: https://orcid.org/0000-0002-2415-7462
 GitHub: https://github.com/pbrown-usgs
 
 
-## SDCcheckURL:
+## DMP-BackupByEmail:
 
-Google sheet functions that sets up queries of the Science Data Catalog for a list of Data Releases based upon DOI numbers as the Data Unique Identifier.  These include:
+Google sheet functions that sends data backups via email:
 
-- **createSDCQueryURL**, function that creates the SDC query URL using the DOI
+- **sendExcelBackupEmail**, function that creates a Google Sheet backup in MS Excel format and sends it to designees via email as an attachment; this function still requires testing.
+
+## DMP-BackupByEmail:
+
+Google sheet functions that create DMP backups:
+
+- **onOpen**, function that creates a Google Sheet menus for Data Backup Functions.
+- **BackUp**
+- **createDoc**
+
