@@ -47,7 +47,7 @@ Google sheet functions used to create a DMP using a Google Doc Template and data
 #### Text example for template document
 Text below is an example of populating creating a template document based upon finding and replacing text strings.  Template text can be formatted however by formatting the children objects of the documents body in Google Docs.
 
-'''
+```
 Data Management Plan generated on %DateCreated% from Data Management Form responses completed %Timestamp%
 
 Data Management Plan For
@@ -150,7 +150,7 @@ Persistent Identifier:
 %PersistentIdentifier%
 DOI:
 %DOI%
-'''
+```
 
 ## DMP-G-SheetSync:
 Google sheet functions used to sycronize seperate Google Sheet worksheets between 2 Google Sheet Workbooks
