@@ -44,6 +44,9 @@ Google sheet functions used to create a DMP using a Google Doc Template and data
 - **appendToDoc**; function that calls append element function
 - **appendElementToDoc**; function that appends child objects to document parent object
 
+#### Text example for template document
+
+
 ## DMP-G-SheetSync:
 Google sheet functions used to sycronize seperate Google Sheet worksheets between 2 Google Sheet Workbooks
 
