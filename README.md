@@ -47,6 +47,12 @@ Google sheet functions used to create a DMP using a Google Doc Template and data
 ## DMP-G-SheetSync:
 Google sheet functions used to sycronize seperate Google Sheet worksheets between 2 Google Sheet Workbooks
 
-- **copyDataToWorkingSpreadsheet**; function that sycronizes worksheets between work books.  
+- **copyDataToWorkingSpreadsheet**; function that sycronizes worksheets between work books. 
+
+## DMP-EmailFunctions:
+Google sheet functions used to send emails containing Google Form responses and that attach files
+
+- **SendEmailOnFormSubmit**; function that sends a confirmation email after a Google Form submission containing form responses. 
+
 
 
