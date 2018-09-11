@@ -36,3 +36,12 @@ Google sheet functions that create DMP backups:
 Google sheet functions that assighn edit URLs and response IDs to data
 
 - **assignEditUrlsDMP_Responses**; function that assigns edit Google Form response URLs to worksheet
+
+## DMP-CreateDMPFromTemplate:
+Google sheet functions used to create a DMP using a Google Doc Template and data from a Google Sheet
+
+- **CreateDMP**; function that assighns values to the Google doc template
+- **appendToDoc**; function that calls append element function
+- **appendElementToDoc**; function that appends child objects to document parent object
+
+
