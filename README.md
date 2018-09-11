@@ -45,7 +45,112 @@ Google sheet functions used to create a DMP using a Google Doc Template and data
 - **appendElementToDoc**; function that appends child objects to document parent object
 
 #### Text example for template document
+Text below is an example of populating creating a template document based upon finding and replacing text strings.  Template text can be formatted however by formatting the children objects of the documents body in Google Docs.
 
+'''
+Data Management Plan generated on %DateCreated% from Data Management Form responses completed %Timestamp%
+
+Data Management Plan For
+
+%ProjectTitle%
+
+Principal Investigator: %PrincipalInvestigator%
+Email Address: %EmailAddress%
+Start Date: %StartDate%
+End Date: %EndDate%
+Project Continuation: %ProjectContinuation%
+Data Point of Contact: %DataContact%
+Data Agreement: %DataAgreement%
+Funding Source: %FundingSource%
+
+Abstract
+%Abstract%
+
+Collaborators
+%Collaborators%
+
+Data Characteristics
+Data collection: 
+%DataCollection%
+Ownership: 
+%Ownership%
+Existing Data: 
+%ExistingData%
+Existing Data Source: 
+%SourceExisting%
+Contractor Data: 
+%ContractData%
+Contractor Data Source: 
+%SourceContract%
+Raw Data Format(s): 
+%RawFormat%
+Data Volume: 
+%DataVolume%
+Data Collection Hardware: 
+%HardwareEnvironment%
+File Naming Convention: 
+%FileNamingConv%
+
+Geospatial Information
+Is the data Geospatial: 
+%GeospatialExtent% 
+Study Area: 
+%StudyAreaGIS%
+Geospatial Footprint:  
+%GISfootprint%
+
+Data Processing
+	Data Modeling Involved:
+%ModelSoftware%
+	Modeling Software being utilized:
+%SoftwareUtilized%
+	Data Processing Workflow:
+%ProcessingData%
+	Processing Tools:
+%ToolsSoftware%
+Provenance:
+%Provenance%
+	QA/QC:
+%QAQC%
+	Data Analyzed:
+%Analyze%	
+	Analysis Steps:
+%AnalysisSteps%
+Analysis Method(s):
+%Method%	
+
+Data Management
+Backup and Storage:
+%BackupAndStorage%
+Backup Protocol:
+%BackupProtocol%
+Data Release Responsibility:
+%PublishResponsibility%
+Version Control:
+%VersionControl%
+Operational Copy:
+%OperationalCopy%
+Data Risk:
+%Risks%
+Preserve Format:
+%PreserveFormat%
+Data versions published:
+%PublishVersions%
+Deadline:
+%Deadline%
+Metadata:
+%Metadata%
+Restrictions:
+%Restrictions%
+Distribution Platform:
+%DistributionPlatform%
+Data URL:
+%DataURL%
+Persistent Identifier:
+%PersistentIdentifier%
+DOI:
+%DOI%
+'''
 
 ## DMP-G-SheetSync:
 Google sheet functions used to sycronize seperate Google Sheet worksheets between 2 Google Sheet Workbooks
