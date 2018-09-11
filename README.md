@@ -31,3 +31,8 @@ Google sheet functions that create DMP backups:
 - **BackUp**
 - **createDoc**
 
+
+## DMP-AssignFormEditURL:
+Google sheet functions that assighn edit URLs and response IDs to data
+
+- **assignEditUrlsDMP_Responses**; function that assigns edit Google Form response URLs to worksheet
